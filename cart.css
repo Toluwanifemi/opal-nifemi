@@ -1,0 +1,45 @@
+a {
+    text-decoration: hsla(hue, saturation, lightness, alpha);
+    color: rgba(240, 11, 80, 0.986);
+}
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background:white;
+    border-radius: 5px;
+    border: 9px solid lightpink;
+    box-shadow: 0 1px 2px rgb(189, 10, 206);
+}
+#header  {
+    padding: 2px;
+    color: white;
+    text-align: center;  
+    background-color: grey; 
+}
+#sub-header {
+    color: black;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hotpink;
+    padding: 1px;
+}
+#footer {
+    padding: 2px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: grey;
+}
+.cart {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.grid-container {
+    display:inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    color: black;
+}
