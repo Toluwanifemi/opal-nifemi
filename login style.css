@@ -1,0 +1,92 @@
+.body{
+    position: fixed;
+    overflow-y:scroll;
+    width: 100%;
+    top: -20px;
+    right: -40px;
+    bottom: -40px;
+    left: -40px;
+    background-image: url("blush-brush.jpg");
+    background-size: cover;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-left: auto;
+}
+.grad{
+    max-width: 500px;
+    margin: auto;
+}
+.login {
+    
+    position: relative;
+       background:transparent;
+    border-radius: 5px;
+    border: 5px solid lightpink;
+    box-shadow: 0 1px 2px rgb(189, 10, 206);
+    width: 325px;
+    height: 340px;
+   
+}
+
+label {
+    color: orchid;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=password] {
+    color: #777;
+    padding-left: 10px;
+    margin: 10px;
+    margin-top: 12px;
+    margin-left: 18px;
+    border: 1px solid #c7d0d2;
+    border-radius: 2px;
+    box-shadow: 0 1.5px 3px rgba(190,190,190, .4), 0 0 1 5px #f5f7;
+    width: 290px;
+    height: 10px;
+}
+input[type=text ],
+input[type=emailaddress] {
+color: #777;
+padding-left: 10px;
+margin: 10px;
+margin-top: 12px;
+margin-left: 18px;
+width: 290px;
+height: 35px;
+}
+
+#lower {
+    background: transparent;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+}
+input[type=checkbox] {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.check {
+    margin-left: 3px;
+}
+input[type=button] {
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+}
+input[type=submit] {
+    background-color: transparent;
+    color:blue;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 125px;
+    height: 30px;
+}
