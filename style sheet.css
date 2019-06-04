@@ -1,0 +1,69 @@
+body {
+    width: 200%;
+    height: 200%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+    background: white; 
+}
+#container {
+    position: fixed;
+    width: 340px;
+    height: 420px;
+    top: 5%;
+    left: 10%;
+    background:white;
+    border-radius: 5px;
+    border: 5px solid lightpink;
+    box-shadow: 0 1px 2px rgb(189, 10, 206);
+}
+form {
+
+    margin: none;
+    margin-top: none;
+}
+label {
+    color: orchid;
+    display: inline-block;
+    margin-left: 18px;
+    padding-top: 10px;
+    font-size: 14px; 
+}
+p a {
+    font-size: 11px;
+    color: blueviolet;
+    float: right;
+    margin-top: -13px;
+    margin-right: 20px;
+}
+p a  :hover {
+    color: thistle;
+ }    
+ input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    outline: royalblue;
+}
+input[type=text ],
+input[type=password] {
+color: #777;
+padding-left: 10px;
+margin: 10px;
+margin-top: 12px;
+margin-left: 18px;
+width: 290px;
+height: 35px;
+}
+#lower {
+    background: wwhite;
+    width: 100%;
+    height: 69px;
+    margin-top: 20px;
+}
+input[type=button] {
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 80px;
+    height: 30px;
+    color: blue
+}

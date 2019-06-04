@@ -1,0 +1,50 @@
+body {
+    background-color:transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("blush-brush.jpg");
+}
+a {
+    text-decoration: none;
+    color: rgba(240, 11, 80, 0.986);
+}
+
+#container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header  {
+    color: white;
+    text-align: center;   
+}
+#content {
+    padding-left: 10px;
+}
+#nav {
+    float: left;
+    width: 180px;
+}
+#nav ul {
+list-style-type: square;
+margin: 0px;
+}
+#nav .selected {
+    font-weight: bold;
+}
+#main {
+    float: right;
+    color: rgba(240, 11, 80, 0.986);
+    width: 600px;
+    font-size: large;
+    font-family: cursive;
+}
+
+#footer {
+    clear: both;
+    padding: 200px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: large;
+}
