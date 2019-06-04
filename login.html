@@ -1,0 +1,46 @@
+﻿<! DOCTYPE html>
+<html>
+        <head>
+          <title>Login</title>
+          <link rel="stylesheet" type="text/css" href="login style.css" />
+          
+        </head>
+    <body>
+          <div class="body"></div>  
+   
+
+          <form name="login">
+     <div class="login"  >
+      <label for="email address">Email address:</label>
+    <input type="text"  name="emailaddress">
+    <label for="password">Password:</label>
+    <input type="text"  name="passwordtext">
+                 <div id="lower">
+        <input type="checkbox"><label for="checkbox">Keep me logged in</label>
+        <input type="button" value="Login"  onclick="logsden(this.form)"/>
+        <input type="submit" value="Forgot password?" />
+        </div>
+        <! --/ lower-->
+</form>
+
+<script language="javascript">
+
+
+
+ function logsden(form){
+        var email = 'Aby@gmail.com';
+var password = 'Aby';
+if(form.emailaddress.value==email && form.passwordtext.value==password){
+    alert('Login Accepted');
+    location.replace("shopping cart.html");
+}
+else{
+        alert('Login Uncccepted');
+}
+}
+
+
+</script>
+</div>
+</body>
+</html>
